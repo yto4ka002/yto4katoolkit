@@ -1,0 +1,27 @@
+# Private configuration & credentials
+config.json
+
+# TDLib session and cache
+.anime_toolkit_tdjson_*
+voice_cache.json
+part_cache.json
+.thumbs/
+
+# Large binaries (exceeds GitHub 100MB file limit)
+*.exe
+tools/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak*
+
+# PyInstaller build artifacts
+build/
+dist/
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store

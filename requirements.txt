@@ -1,0 +1,8 @@
+# Anime Toolkit Dependencies
+tdjson==1.8.64.post1
+requests>=2.28.0
+qrcode[pil]>=7.4.2
+pillow>=10.0.0
+
+# Build requirements (optional, for compiling to .exe)
+pyinstaller>=6.0.0
